@@ -1,0 +1,3 @@
+MLPLUB001		LUBASI MILUPI
+
+This algorithm uses a page table stored in an array and address conversion functions to translate virtual addresses to physical addresses. It can be run on the terminal with the command java OS1Assigment.java "Filepath". The file path must be passed as an argument in inverted commas. if not passed then the default path (My path) will be run, which is in the default constructor. If not using the filepath, the filename can just be passed as an argument (Ensuring that the file is in the same folder as the OS1Assignment.java).
