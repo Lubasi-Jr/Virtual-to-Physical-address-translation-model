@@ -13,6 +13,8 @@ public class OS1Assignment {
 
     public String filename;
 
+    public String path;
+
     public OS1Assignment(){
         this.filename= "OS1sequence";
     }
@@ -123,6 +125,7 @@ public class OS1Assignment {
                 if(virtual_init.length() != 16){ // Pad the string with 0's to avoid string manipulation errors when the functions are being called
                     int diff = 16-virtual_init.length();
                     String filler = "0".repeat(diff);
+                    
                     virtual_init = virtual_init+filler;
                 }
 
@@ -166,6 +169,6 @@ public class OS1Assignment {
                 }
             }
         }
-        System.out.println("Translation complete");
+        System.out.println("Translation complete and output file created");
     }
 }
